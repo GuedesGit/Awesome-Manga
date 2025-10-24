@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Awesome-Manga/static/css/main.b2114fcb.css",
+    "main.js": "/Awesome-Manga/static/js/main.6a267a8e.js",
+    "index.html": "/Awesome-Manga/index.html",
+    "main.b2114fcb.css.map": "/Awesome-Manga/static/css/main.b2114fcb.css.map",
+    "main.6a267a8e.js.map": "/Awesome-Manga/static/js/main.6a267a8e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2114fcb.css",
+    "static/js/main.6a267a8e.js"
+  ]
+}
