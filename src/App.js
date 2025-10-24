@@ -1,6 +1,7 @@
-﻿import React, { useState } from "react";
+import React, { useState } from "react";
 import Header from "./components/Header";
-import HighlightsGrid from "./components/HighlightsGrid";
+import FeaturedNews from "./components/FeaturedNews";
+import ArticlesList from "./components/ArticlesList";
 import SAMPLE from "./data/sampleHighlights";
 
 export default function App() {
@@ -20,7 +21,8 @@ export default function App() {
     <div className="app">
       <Header query={query} setQuery={setQuery} />
       <main>
-        <HighlightsGrid items={filtered} />
+        <FeaturedNews />
+        <ArticlesList items={filtered} />
       </main>
     </div>
   );
