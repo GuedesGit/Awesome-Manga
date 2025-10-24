@@ -1,0 +1,112 @@
+﻿:root{
+  --bg: #0f1724;
+  --card: #0b1220;
+  --accent: #ef4444;
+  --muted: #9aa4b2;
+  --glass: rgba(255,255,255,0.03);
+}
+
+*{box-sizing:border-box}
+body,html,#root{height:100%; margin:0; font-family: Inter, Roboto, system-ui, -apple-system, "Segoe UI", "Helvetica Neue", Arial;}
+
+.app{
+  min-height:100vh;
+  background: linear-gradient(180deg, #071028 0%, #081028 60%);
+  color:#f3f4f6;
+  padding:24px;
+}
+
+/* Header */
+.header{
+  display:flex;
+  align-items:center;
+  gap:16px;
+  margin-bottom:24px;
+}
+
+/* logo */
+.logo{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  cursor:pointer;
+}
+.logo .mark{
+  width:48px;
+  height:48px;
+  background:linear-gradient(135deg,#ff9a9e,#fad0c4);
+  border-radius:8px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:700;
+  color:#0b1220;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.35);
+}
+
+/* search */
+.search-wrap{
+  margin-left:auto;
+  width:min(720px, 55%);
+}
+.search{
+  width:100%;
+  padding:10px 14px;
+  border-radius:10px;
+  border:1px solid rgba(255,255,255,0.06);
+  background:var(--glass);
+  color:var(--muted);
+  outline:none;
+  font-size:15px;
+}
+.search:focus{box-shadow:0 0 0 3px rgba(239,68,68,0.12); color:#fff}
+
+/* grid */
+.grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px,1fr));
+  gap:18px;
+  align-items:start;
+}
+
+.card{
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  border-radius:12px;
+  padding:12px;
+  border:1px solid rgba(255,255,255,0.03);
+  transition:transform .15s ease, box-shadow .15s ease;
+}
+.card:hover{ transform: translateY(-6px); box-shadow: 0 10px 30px rgba(2,6,23,0.6); }
+.card .thumb{
+  width:100%;
+  height:140px;
+  border-radius:8px;
+  object-fit:cover;
+  background:#071428;
+}
+.card .meta{
+  margin-top:10px;
+}
+.card .title{
+  font-weight:700;
+  margin:6px 0;
+  font-size:16px;
+}
+.card .desc{
+  color:var(--muted);
+  font-size:13px;
+  line-height:1.25;
+}
+.card .tags{
+  margin-top:10px;
+  display:flex;
+  gap:8px;
+  flex-wrap:wrap;
+}
+.tag{
+  font-size:12px;
+  padding:6px 8px;
+  background: rgba(255,255,255,0.03);
+  border-radius:999px;
+  color:var(--muted);
+}
