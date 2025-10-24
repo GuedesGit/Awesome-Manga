@@ -5,7 +5,7 @@ export default function Header({ query, setQuery }) {
   return (
     <header className="header">
       <div className="logo" onClick={() => setQuery("")}>
-        <img src="/logo.png" alt="Awesome Manga Logo" className="logo-img" />
+        <img src={process.env.PUBLIC_URL + "/logo.png"} alt="Awesome Manga Logo" className="logo-img" />
         <div>
           <div style={{ fontWeight: 700 }}>Awesome Manga</div>
           <div style={{ fontSize: 12, color: "var(--muted)" }}>

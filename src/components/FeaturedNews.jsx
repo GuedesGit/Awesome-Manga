@@ -5,7 +5,7 @@ export default function FeaturedNews() {
     <section className="featured-section">
       <div className="featured-container">
         <img 
-          src="/featured.png" 
+          src={process.env.PUBLIC_URL + "/featured.png"}
           alt="Featured anime characters" 
           className="featured-image"
         />
