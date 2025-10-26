@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Awesome-Manga/static/css/main.4528b6b2.css",
-    "main.js": "/Awesome-Manga/static/js/main.6e41c5cc.js",
+    "main.css": "/Awesome-Manga/static/css/main.1aff97f1.css",
+    "main.js": "/Awesome-Manga/static/js/main.68cc2bde.js",
     "index.html": "/Awesome-Manga/index.html",
-    "main.4528b6b2.css.map": "/Awesome-Manga/static/css/main.4528b6b2.css.map",
-    "main.6e41c5cc.js.map": "/Awesome-Manga/static/js/main.6e41c5cc.js.map"
+    "main.1aff97f1.css.map": "/Awesome-Manga/static/css/main.1aff97f1.css.map",
+    "main.68cc2bde.js.map": "/Awesome-Manga/static/js/main.68cc2bde.js.map"
   },
   "entrypoints": [
-    "static/css/main.4528b6b2.css",
-    "static/js/main.6e41c5cc.js"
+    "static/css/main.1aff97f1.css",
+    "static/js/main.68cc2bde.js"
   ]
 }
